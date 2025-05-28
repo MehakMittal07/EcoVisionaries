@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Now - Warli Inspired Wrap Co-ord</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .product-image {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 20px auto;
+    }
+    .product-title {
+      font-size: 24px;
+      color: #333;
+      margin: 10px 0;
+    }
+    .product-price {
+      font-size: 20px;
+      color: #2E8B57;
+      margin: 10px 0;
+    }
+    .button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .buy-now {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .cancel {
+      background-color: #FF4500;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Product Image -->
+    <img src="https://mail.google.com/mail/u/0?ui=2&ik=8cdfd6f9e3&attid=0.1&permmsgid=msg-f:1816348106352172551&th=1934f6fab3931e07&view=att&disp=safe&realattid=1934f6f65531846b1d11&zw" alt="Warli Inspired Wrap Co-ord" class="product-image">
+
+    <!-- Product Details -->
+    <h1 class="product-title">Warli Inspired Wrap Co-ord</h1>
+    <p class="product-price">₹3,500</p>
+    <p>This eco-friendly Warli-inspired wrap co-ord is crafted with sustainable materials. Stylish, comfortable, and perfect for all occasions!</p>
+
+    <!-- Buy Now and Cancel Buttons -->
+    <button class="button buy-now" onclick="confirmPurchase()">Confirm Purchase</button>
+    <button class="button cancel" onclick="cancelPurchase()">Cancel</button>
+  </div>
+
+  <script>
+    // Confirm purchase functionality
+    function confirmPurchase() {
+      alert("Thank you for your purchase! Your order has been placed successfully.");
+      window.location.href = "index.html"; // Redirect to the homepage or an order confirmation page
+    }
+
+    // Cancel purchase functionality
+    function cancelPurchase() {
+      alert("Purchase canceled. Redirecting back to the product page.");
+      window.location.href = "buy-now.html"; // Redirect back to the product page
+    }
+  </script>
+</body>
+</html>
