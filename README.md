@@ -1,0 +1,2 @@
+# EcoVisionaries
+ Waste segregation model
